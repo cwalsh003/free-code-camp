@@ -1,0 +1,67 @@
+body{
+  background-color:#CCCCCC;
+}
+.inBlock{
+  height:53px;
+  border: 1px solid gray;
+  border-radius: 1px;
+  width: 700px;
+  
+  
+}
+.buttons{
+  margin-top: 0px;
+  
+}
+.unavailable{
+ background-color: 
+#ff8181;
+ font-size:20px;
+  font-weight:bold;
+  line-height:50px;
+}
+
+.row{
+  margin:1px;
+}
+a{
+  color: black;
+  font-size:20px;
+  font-weight:bold;
+  font-family: 'Cabin', sans-serif;
+}
+.inOnline{
+  background-color:#98FB98;
+}
+
+.outOnline{
+  background-color:#778899;
+
+}
+.title-bar{
+  height:150px;
+  font-family: 'Oswald', sans-serif;
+
+  padding:5px;
+}
+h1{
+  font-size:55px;
+}
+p{
+  font-size: 16px;
+  font-family: 'Neuton', serif;
+  font-weight:900;
+}
+.wrapper{
+  margin-bottom:40px;
+}
+
+.statusOffline{
+  color:#FF073a;
+  
+}
+
+.statusOnline{
+  color:green;
+  
+}
