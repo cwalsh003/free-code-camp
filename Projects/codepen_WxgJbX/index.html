@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>A Pen by  Colin </title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="box container-fluid">
+  <div class="row top">
+    <div class="container">
+      <div id = 'TL' class='col-xs-2 inBox inBox1 topLeft text-center'>
+        </div>
+          <div id = 'TM' class='col-xs-2 inBox2 inBox topMid text-center'>
+            </div>
+              <div id = 'TR' class='col-xs-2 inBox3 inBox topRight text-center'>
+                </div>
+                </div>
+              </div>
+   <div class="row">
+    <div class="container">
+      <div id = 'ML' class='col-xs-2 inBox inBox4 midLeft text-center'>
+        </div>
+          <div id = 'MM' class='col-xs-2 inBox inBox5 midMid text-center'>
+            </div>
+              <div id = 'MR' class='col-xs-2 inBox inBox6 midRight text-center'>
+                </div>
+                </div>
+              </div>
+   <div class="row bottom">
+    <div class="container">
+      <div id = 'BL' class='col-xs-2 inBox inBox7 botLeft text-center'> 
+        </div>
+          <div id = 'BM' class='col-xs-2 inBox inBox8 botMid text-center'>
+            </div>
+              <div id = 'BR' class='col-xs-2 inBox inBox9 botRight text-center'>
+                </div>
+                </div>
+              </div>
+            </div>
+<!-- Modal -->
+  <div class="modal fade draggable" id="myModal" role="dialog" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title text-center">X   or   O</h4>
+        </div>
+        <div class="modal-body">
+          <div class="container"><div class="row"><div class='col-xs-3 '><button type="button" class="btn btn-default center-block ex" data-dismiss="modal">X</button></div><div class='col-xs-3 '><button type="button" class="btn btn-default center-block oh" data-dismiss="modal">O</button></div></div></div>
+        </div>
+        <div class="modal-footer">
+        <p>  </p>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade draggable" id="myModal2" role="dialog" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title text-center">Game Over</h4>
+        </div>
+        <div class="modal-body">
+          <div class="container"><div class="row"><div class='col-xs-2 ex'><p id = "winner"> </p></div></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default center-block play-again" data-dismiss="modal">Play Again</button>
+      </div>
+    </div>
+  </div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

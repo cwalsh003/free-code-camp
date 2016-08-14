@@ -1,0 +1,56 @@
+.box{
+  height:600px;
+  width:600px;
+  background-color:black;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+.inBox{
+  height: 180px;
+  color:white;
+  line-height:170px;
+  font-size:40px;
+}
+
+.inBox1{
+  border-right:1px solid white;
+  border-bottom:1px solid white;
+}
+
+.inBox2{
+  border-bottom:1px solid white;
+  border-right:1px solid white;
+}
+.inBox3{
+  border-left:1px solid white;
+  border-bottom:1px solid white;
+
+}
+.inBox4{
+  border-right:1px solid white;
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+}
+.inBox5{
+  border:1px solid white;
+}
+.inBox6{
+  border-left:1px solid white;
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+}
+.inBox7{
+  border-right:1px solid white;
+}
+.inBox8{
+  border-left:1px solid white;
+  border-right:1px solid white;
+}
+
+.top{
+  margin-top:25px;
+}
+.modal {
+   position: absolute;
+   top: 30%; 
+}
